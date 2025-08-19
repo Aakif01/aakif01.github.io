@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakif's Portfolio</title>
+    <style>
+        /* Basic Reset & Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container for content */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+            color: #bdc3c7;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 50px 0;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+            color: #2c3e50;
+        }
+
+        /* About Section Text */
+        #about p {
+            text-align: center;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        /* Projects Grid Layout */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        /* Project Card Styling */
+        .project-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+            color: #3498db;
+        }
+
+        /* Contact Section Styling */
+        #contact p {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        #contact a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Aakif</h1>
+            <p>Student, AI & DS Department | Passionate Web Developer</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Aakif, a student in the Artificial Intelligence & Data Science (AIDS) department. I have a strong passion for web development and love creating clean, efficient, and user-friendly websites and applications. I enjoy turning complex problems into beautiful and intuitive digital experiences.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project Title 1</h3>
+                    <p>A short description of your first project. Mention the technologies used (e.g., HTML, CSS, JavaScript) and what you learned.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Title 2</h3>
+                    <p>A short description of your second project. This could be a project using a framework like React, or a backend project with Node.js.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Title 3</h3>
+                    <p>A short description of another project. This could be a group project, a hackathon entry, or a personal passion project.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects or creative ideas.</p>
+            <p>Feel free to email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Aakif. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
